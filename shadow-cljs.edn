@@ -1,0 +1,8 @@
+{:deps true
+ :nrepl true
+ :builds
+ {:app {:target :browser
+        :devtools {:http-root "public"}
+        :output-dir "public/assets/app/js"
+        :asset-path "/assets/app/js"
+        :modules {:main {:entries [io.dominic.naga-editor.main]}}}}}

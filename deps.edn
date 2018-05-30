@@ -1,0 +1,4 @@
+{:deps
+ {io.dominic/naga-dagre
+  {:git/url "https://github.com/SevereOverfl0w/dagre-naga"
+   :sha "e80071436c0a6925f1a75ca45efb640d98c4d80c"}}}

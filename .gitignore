@@ -1,0 +1,5 @@
+/public/assets/app
+/node_modules
+/.shadow-cljs
+/.cpcache
+/.nrepl-port
