@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="/codemirror/lib/codemirror.css">
+  </head>
+  <body>
+    <svg id="graph"></svg>
+    <style>
+body {
+  font: 300 14px 'Helvetica Neue', Helvetica;
+}
+
+html, body {
+  height: 100%;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.node rect {
+  stroke: #333;
+  fill: #fff;
+}
+
+.edgePath path {
+  stroke: #333;
+  fill: #333;
+  stroke-width: 1.5px;
+}
+
+svg#graph {
+  width: 100%;
+  height: 60%;
+}
+
+.CodeMirror {
+  height: 40%;
+}
+</style>
+    <script src="/assets/app/js/main.js"></script>
+  </body>
+</html>
+
